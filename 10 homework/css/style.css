@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://cdn.dribbble.com/users/1514097/screenshots/5687494/working.gif);
+  background-repeat: repeat;
+}
+
+button {
+  margin-left: 20px;
+  height: 40px;
+  font-size:larger;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 25px;
+  background-color: yellow;
+  font-weight: 800;
+}
