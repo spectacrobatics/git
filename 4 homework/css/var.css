@@ -1,0 +1,13 @@
+:root {
+    --bg: rgba(0, 0, 0, 0.5);
+    --color: #fff;
+    --second-color: rgba(0, 0, 0, 0.5);
+    --dark-color: rgb(0, 0, 0);
+    --dark-second-color: #f40303;
+    --light-color: bisque;
+    --light-second-color: darkturquoise;
+    --black-color:black;
+    --black-second-color:white;
+    --white-color:white;
+    --white-second-color:black;
+}

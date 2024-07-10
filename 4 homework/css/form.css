@@ -1,0 +1,114 @@
+@import url('./var.css');
+
+.form-card {
+    position: absolute;
+    opacity: 75%;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: var(--bg);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    font-family: var(--my-font);
+}
+
+.form_group input[type='radio'][id='dark']:checked~.form-card {
+    --bg: var(--dark-color);
+    --color: var(--dark-second-color);
+    --second-color: var(--dark-second-color);
+}
+
+
+.form_group input[type='radio'][id='light']:checked~.form-card {
+    --bg: var(--light-color);
+    --color: var(--light-second-color);
+    --second-color: var(--light-second-color);
+    font-family: 'my font2';
+}
+
+.form_group input[type='radio'][id='black']:checked~.form-card {
+    --bg: var(--black-color);
+    --color: var(--black-second-color);
+    --second-color: var(--black-second-color);
+    font-family: 'my font3';
+}
+
+.form_group input[type='radio'][id='white']:checked~.form-card {
+    --bg: var(--white-color);
+    --color: var(--white-second-color);
+    --second-color: var(--white-second-color);
+    font-family: 'my font4';
+
+}
+
+.form-card h2 {
+    font-size: 30px;
+    margin: 0 0 30px;
+    padding: 0;
+    color: var(--color);
+    text-align: center;
+}
+
+.form-card .user-box {
+    position: relative;
+}
+
+.form-card .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 50px;
+    color: var(--color);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--color);
+    outline: none;
+    background: transparent;
+}
+
+.form-card .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    color: var(--color);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.form-card .user-box input:focus~label,
+.form-card .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: var(--second-color);
+    font-size: 16px;
+}
+
+.form-card form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--second-color);
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+
+.form-card a:hover {
+    background: var(--second-color);
+    color: var(--color);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--second-color), 0 0 25px var(--second-color), 0 0 50px var(--second-color), 0 0 100px var(--second-color);
+}
+
+.form-card a span {
+    position: absolute;
+    display: block;
+}

@@ -1,0 +1,36 @@
+@import url('./var.css');
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'my font2';
+    src: url('../font/xiphos-3.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'my font';
+    src: url('../font/CitycrewPersonalUseBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'my font4';
+    src: url('../font/czechgotika.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'my font3';
+    src: url('../font/sable-lion.ttf') format('truetype');
+}
+
+body {
+    background-image: url(https://otkritkis.com/wp-content/uploads/2022/06/i3uxn.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'my font';
+    font-weight: 900;
+}
