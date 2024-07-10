@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 homework</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <meta name="description" content="Без проблемная доставка купленных вещей из США, Европы и Азии в Россию">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/advantages.css">
+    <link rel="stylesheet" href="css/garant.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/questions.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="res/js/swipe.js"></script>
+    <script defer src="res/js/burger.js"></script>
+    <script defer src="res/js/header.js"></script>
+    <script defer src="res/js/demo.js"></script>
+    <script defer src="../../ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="demo_back">
+        <div class="demo_form">
+            <span>Это прототип сайта</span> <button class="more-document" onclick="demoFormDis()">OK</button>
+        </div>
+    </div>
+    <header class="head" id="head-fixed">
+        <div class="head-sclice">
+            <div class="logo" itemscope itemtype="https://schema.org/Organization">
+                <img src="res/Vector.png" alt="logo"><span itemprop="name">FromBoard Delivery</span>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="streetAddress" content="Грат, 24">
+                    <meta itemprop="postalCode" content="232440">
+                    <meta itemprop="addressLocality" content="Москва">
+                </div>
+                <meta itemprop="telephone" content="+7 (800) 123-45-67">
+            </div>
+            <div class="info" id="info-fix">
+                <div class="inen">
+                    <span>Доставляем товары из-заграницы в Россию</span> <span>Стоимость от 550 рублей за заказ</span>
+                    <span>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</span>
+                </div>
+                <div class="inen-1">
+                    <span class="number-info">+7 (800) 123-45-67</span>
+                    <div class="burger"><img src="res/Burger.png" onclick="burger()" alt="Burger"></div><span
+                        class="plus-info">Звонки по России бесплатны</span>
+                </div>
+            </div>
+        </div><img class="line-head" id="line-head" src="res/line.png" alt="line">
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="menu">
+                <div class="menu-info" id="menu-info-fix">
+                    <a href="#" onclick="slowScroll('#calculate')">Калькулятор</a> <a href="#"
+                        onclick="slowScroll('#advantages')">О нас</a> <a href="#"
+                        onclick="slowScroll('#garant')">Гарантии</a> <a href="#"
+                        onclick="slowScroll('#reviews')">Отзывы</a>
+                </div><button class="zayvka" onclick="demoFormEn()">Оставить заявку</button>
+            </div>
+        </div>
+    </header>
+    <main class="back-main" id="back-main">
+        <section class="main">
+            <div class="presentation">
+                <h1>Без проблемная доставка купленных вещей из США, Европы и Азии в
+                    Россию</h1> <span class="presentation-p">Сэкономьте на покупках и наслаждайтесь мировыми брендами
+                    — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в
+                    России</span> <img src="res/Rectangle%202.png" alt="Rectangle%202">
+            </div>
+            <div class="calculate" id="calculate">
+                <span class="calculate-zag">Калькулятор доставки</span> <span class="calculate-about">Посчитайте,
+                    сколько будет стоить перевозка покупки из зарубежа</span>
+                <form class="grid-info" action="#" method="post">
+                    <div class="grid-info-place">
+                        <input type="text" class="name-shield" placeholder="Имя" name="name"> <input type="email"
+                            class="shield" placeholder="Почта" name="mail"> <input type="number" class="shield"
+                            placeholder="Телефон" name="number"> <input type="text" class="shield"
+                            placeholder="Общая площадь,м" name="square"> <input type="text" class="shield"
+                            placeholder="Вес, кг" name="weight"> <input type="text" class="shield"
+                            placeholder="Страна покупки" name="country-buy"> <input type="text" class="shield"
+                            placeholder="Город покупки" name="city-buy"> <input type="text" class="shield"
+                            placeholder="Область доставки" name="area-delivery"> <input type="text" class="shield"
+                            placeholder="Город доставки" name="city-delivery">
+                    </div><button type="button" onclick="demoFormEn()" class="calc-date" value="yes">Заказать
+                        расчет</button>
+                </form>
+            </div>
+        </section>
+        <section class="advantages" id="advantages">
+            <span class="advantages-head">Наши преимущества</span>
+            <div class="advantages-present">
+                <div class="advantages-present-element">
+                    <img src="res/Board.png" alt="Board">
+                    <div class="advantages-present-element-text">
+                        <span class="advantages-text-head">Расторможка груза</span> <span
+                            class="advantages-text-description">Мы берём на себя все формальности и бумажную волокиту,
+                            связанную с растаможкой груза</span>
+                    </div>
+                </div>
+                <div class="advantages-present-element">
+                    <img src="res/Package.png" alt="Package">
+                    <div class="advantages-present-element-text">
+                        <span class="advantages-text-head">Надежная упаковка</span> <span
+                            class="advantages-text-description">Все товары упаковываются нашими специалистами
+                            с&nbsp;особым вниманием к&nbsp;деталям, гарантируя, что&nbsp;они&nbsp;дойдут
+                            в&nbsp;безопасности и&nbsp;в&nbsp;отличном состоянии</span>
+                    </div>
+                </div>
+                <div class="advantages-present-element">
+                    <img src="res/Delivery.png" alt="Delivery">
+                    <div class="advantages-present-element-text">
+                        <span class="advantages-text-head">Быстро и выгодно</span> <span
+                            class="advantages-text-description">Мы предлагаем быструю и выгодную доставку, чтобы вы
+                            могли насладиться покупками как можно скорее.</span>
+                    </div>
+                </div>
+                <div class="advantages-present-element">
+                    <img src="res/best%20support.png" alt="best%20support">
+                    <div class="advantages-present-element-text">
+                        <span class="advantages-text-head">Удобный сервис</span> <span
+                            class="advantages-text-description">Стремимся сделать процесс доставки максимально удобным
+                            для вас, чтобы опыт остался приятным и беззаботным</span>
+                    </div>
+                </div>
+                <div class="advantages-present-element">
+                    <img src="res/clear%20info.png" alt="clear%20info">
+                    <div class="advantages-present-element-text">
+                        <span class="advantages-text-head">Прозрачность работы</span> <span
+                            class="advantages-text-description">Мы предоставляем полный контроль над&nbsp;каждым этапом
+                            доставки, от&nbsp;момента заказа до&nbsp;момента прибытия заказа</span>
+                    </div>
+                </div>
+                <div class="advantages-present-element">
+                    <img src="res/garantee.png" alt="garantee">
+                    <div class="advantages-present-element-text">
+                        <span class="advantages-text-head">Страхование работы</span> <span
+                            class="advantages-text-description">Наше страхование обеспечивает&nbsp;полную защиту и
+                            покрытие почти все неприятные и неожиданные ситуации</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="garant" id="garant">
+            <span class="garant-head">Гарантии качества</span> <span class="garant-description">Наши гарантии качества
+                включают в&nbsp;себя полный спектр документов, необходимых для&nbsp;ввоза и&nbsp;вывоза товаров,
+                а&nbsp;также для&nbsp;успешного бизнеса на&nbsp;мировом рынке. Мы&nbsp;предоставляем вам&nbsp;надёжность
+                и&nbsp;уверенность</span>
+            <div class="garant-info">
+                <div class="garant-info-element">
+                    <img src="res/Rectangle%203.png" alt="Rectangle%203"> <span class="garant-info-text">Свидетельство о
+                        регистрации в РФ</span>
+                </div>
+                <div class="garant-info-element">
+                    <img src="res/Rectangle%20301.png" alt="Rectangle%20301"> <span
+                        class="garant-info-text">Свидетельство о регистрации в США</span>
+                </div>
+                <div class="garant-info-element">
+                    <img src="res/Rectangle%20302.png" alt="Rectangle%20302"> <span
+                        class="garant-info-text">Свидетельство о регистрации в Китае</span>
+                </div>
+                <div class="garant-info-element">
+                    <img src="res/Rectangle%20303.png" alt="Rectangle%20303"> <span
+                        class="garant-info-text">Свидетельство о регистрации в Великобритнии</span>
+                </div>
+            </div><button class="more-document" onclick="demoFormEn()">Показать больше документов</button>
+        </section>
+        <section class="reviews" id="reviews">
+            <span class="reviews-head">Отзывы</span>
+            <div class="reviews-play"><img class="reviews-img-left" src="res/left.png" onclick="swipeLeft()" alt="left">
+                <div class="reviews-place">
+                    <div class="review-element" id="review-1">
+                        <div class="review-text" id="review-text-first">
+                            <p>Я&nbsp;заказала последний iPhone из&nbsp;США&nbsp;через&nbsp;ваш&nbsp;сервис,
+                                и&nbsp;доставка прошла быстро и&nbsp;без&nbsp;каких‑либо проблем. Гарантии качества
+                                и&nbsp;надёжная упаковка сделали мой&nbsp;опыт покупки невероятно позитивным</p>
+                        </div>
+                        <div class="review-autor"><span id="review-author-first">Анна</span> <img src="res/Quotes.png"
+                                alt="Quotes"></div>
+                    </div>
+                    <div class="review-element" id="review-2">
+                        <div class="review-text" id="review-text-second">
+                            <p>Я&nbsp;уже несколько лет&nbsp;заказываю дизайнерскую одежду из&nbsp;Франции
+                                через&nbsp;ваш&nbsp;сервис, и&nbsp;он&nbsp;никогда меня не&nbsp;подводил. Важно иметь
+                                надёжную компанию, которая позаботится о&nbsp;вашем заказе и&nbsp;предоставит все
+                                &nbsp;необходимые документы для&nbsp;ввоза в&nbsp;Россию</p>
+                        </div>
+                        <div class="review-autor"><span id="review-author-second">Алексей</span> <img
+                                src="res/Quotes.png" alt="Quotes"></div>
+                    </div>
+                </div><img class="reviews-img-right" src="res/right.png" onclick="swipeRight()" alt="right">
+            </div>
+        </section>
+        <section class="sector-questions">
+            <div class="questions">
+                <span class="questions-head">Остались вопросы?</span>
+                <form class="questions-form" method="post" name="questions" action="" id="questions">
+                    <input class="questions-info" type="text" name="questions-name" placeholder="Имя"> <input
+                        class="questions-info" type="email" name="questions-mail" placeholder="Почта"> <input
+                        class="questions-info" type="number" name="questions-nubmer" placeholder="Телефон"> <input
+                        class="questions-info" type="text" name="questions-theme" placeholder="Тема вопроса">
+                    <textarea class="questions-text" name="questions-text" placeholder="Сообщение.."></textarea> <button
+                        type="button" onclick="demoFormEn()" value="yes" class="questions-confirm"
+                        name="questions-button">Оставить заявку</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer-block">
+            <div class="logo">
+                <img src="res/Vector.png" alt="logo"><span>FromBoard Delivery</span>
+            </div>
+            <div class="footer-info">
+                <a href="#" onclick="slowScroll('#calculate')">Калькулятор</a> <a href="#"
+                    onclick="slowScroll('#advantages')">О нас</a> <a href="#"
+                    onclick="slowScroll('#garant')">Гарантии</a> <a href="#" onclick="slowScroll('#reviews')">Отзывы</a>
+            </div>
+            <div class="inen-1">
+                <span class="number-info">+7 (800) 123 45-67</span> <span class="plus-info">Звонки по России
+                    бесплатны</span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - 50
+            }, 500);
+
+        }
+    </script>
+    <script>
+
+
+        let fired = false;
+
+        window.addEventListener('scroll', () => {
+            if (fired === false) {
+                fired = true;
+
+                setTimeout(() => {
+
+                    window.yaContextCb = window.yaContextCb || []
+                    let script = document.createElement('script');
+                    script.src = "https://yandex.ru/ads/system/context.js";
+                    document.head.append(script);
+
+                    window.yaContextCb.push(() => {
+                        Ya.Context.AdvManager.render({
+                            "blockId": "R-A-5962486-1",
+                            "type": "fullscreen",
+                            "platform": "touch"
+                        })
+                    })
+
+                    window.yaContextCb.push(() => {
+                        Ya.Context.AdvManager.render({
+                            "blockId": "R-A-5962486-2",
+                            "type": "fullscreen",
+                            "platform": "desktop"
+                        })
+                    })
+
+
+                }, 3000)
+            }
+        });
+    </script>
+</body>
+
+</html>
