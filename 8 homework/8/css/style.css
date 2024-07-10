@@ -1,0 +1,27 @@
+.right {
+    position: relative;
+}
+
+.right:hover::before{
+    content: "Это тултип";
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    background-color: red;
+    z-index: 999;
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
