@@ -1,0 +1,156 @@
+@import url('../../../css2');
+
+.garant{
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;    
+    margin-top: 1.8vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+@media (max-width:500px) {
+    .garant .garant-head{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+@media (max-width:1000px) {
+    .garant{
+        width: 90% !important;
+    }
+    .garant-head{
+        font-size: 4vw !important;
+        margin-bottom: 1.6vw !important;
+    }
+    .garant-description{
+        margin-bottom: 3vw !important;
+        font-size: 2.11vw!important;
+        width: 100% !important;
+    }
+    .garant-info{
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -webkit-box-orient: vertical!important;
+        -webkit-box-direction: normal!important;
+            -ms-flex-direction: column!important;
+                flex-direction: column!important;
+        -webkit-box-pack: start!important;
+            -ms-flex-pack: start!important;
+                justify-content: start!important;
+        -webkit-box-align: center!important;
+            -ms-flex-align: center!important;
+                align-items: center!important;
+    }
+    .garant-info-element{        
+        margin-bottom: 3vw !important;
+        width: auto !important;
+    }
+    .garant-info-element img{
+        margin-bottom: 0.5vw !important;
+        width: 48.3vw !important;
+    }
+    .more-document{
+        font-size: 2.11vw !important;
+        padding: 2.11vw 3.7vw 2.11vw 3.7vw !important;
+        margin-top: 1.7vw !important;
+    }
+    .garant-info-text{
+        font-size: 2vw !important;
+        font-weight: 900 !important;
+    }
+}
+@media (max-width:1200px) and (min-width:1001px) {
+    .garant-info-element{
+        width: 45%!important;
+        margin-bottom: 2vw!important;
+    }
+    .garant-info{
+        width: 70% !important;
+        -webkit-box-pack: justify!important;
+            -ms-flex-pack: justify!important;
+                justify-content: space-between!important;
+    }
+}
+
+.garant-head{
+    font-size: 2.1vw;
+    font-weight: 900;
+    margin-bottom: 0.8vw;
+}
+
+.garant-description{
+    width: 50vw;
+    font-size: 1.075vw;    
+    margin-bottom: 1.6vw;
+}
+
+.garant-info{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+}
+
+.garant-info-element{
+    margin: 0;
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.garant-info-element img{
+    width: 100%;
+}
+.garant-info-text{
+    font-size: 1.075vw;
+    font-weight: 900;
+    margin-top: 0.26vw;
+}
+
+.more-document{
+    margin-top: 2.4vw;
+    padding: 0.8vw 1.88vw 0.8vw 1.88vw;    
+    border-radius: 8px;
+    background-color: rgba(139, 92, 246, 1);
+    color: rgba(249, 250, 251, 1);
+    font-size: 1vw;
+    font-weight: 900;
+    border: 0px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    
+}

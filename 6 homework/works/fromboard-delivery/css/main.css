@@ -1,0 +1,566 @@
+@import url('../../../css2');
+
+#head-fixed {
+    z-index: 499;
+}
+
+@media (max-width:500px) {
+    #back-main .calc-date{
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px !important;
+    }
+    #back-main * {
+        font-size: 14px !important;
+    }
+
+    #back-main .questions-text::-webkit-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-text::-moz-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-text:-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-text::-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-text::placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .presentation span:first-child {
+        font-size: 18px !important;
+    }
+
+    #back-main .calculate-zag {
+        font-size: 18px !important;
+    }
+
+    .calculate-about {
+        text-align: center !important;
+    }
+
+    #back-main .name-shield::-webkit-input-placeholder {
+        font-size: 14px !important;
+    }
+
+    #back-main .name-shield::-moz-placeholder {
+        font-size: 14px !important;
+    }
+
+    #back-main .name-shield:-ms-input-placeholder {
+        font-size: 14px !important;
+    }
+
+    #back-main .name-shield::-ms-input-placeholder {
+        font-size: 14px !important;
+    }
+
+    #back-main .name-shield::placeholder {
+        font-size: 14px !important;
+    }
+
+    .button:focus {
+        outline: 30px solid red;
+    }
+
+    #back-main .advantages-head {
+        font-size: 18px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #back-main .advantages-present-element {
+        width: 100% !important;
+    }
+
+    #back-main .advantages-present-element img {
+        width: 23vw !important;
+    }
+
+    #back-main .garant-head {
+        font-size: 18px !important;
+    }
+
+    #back-main .garant-info-element img {
+        width: 57vw !important;
+    }
+
+    #back-main .reviews-head {
+        font-size: 18px !important;
+    }
+
+    #back-main .questions-head {
+        font-size: 18px !important;
+    }
+
+    #back-main .shield::-webkit-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .shield::-moz-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .shield:-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .shield::-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .shield::placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-info::-webkit-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-info::-moz-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-info:-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-info::-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    #back-main .questions-info::placeholder {
+        font-size: 12px !important;
+    }
+
+    .questions-text::-webkit-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    .questions-text::-moz-placeholder {
+        font-size: 12px !important;
+    }
+
+    .questions-text:-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    .questions-text::-ms-input-placeholder {
+        font-size: 12px !important;
+    }
+
+    .questions-text::placeholder {
+        font-size: 12px !important;
+    }
+}
+
+.back-main {
+    background-color: rgba(229, 231, 235, 1);
+    width: 100%;
+    padding-top: 4.8vw;
+    padding-bottom: 4.8vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main {
+
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+@media (max-width:1000px) {
+
+    .main {
+        margin-top: 37px !important;
+    }
+
+    .presentation span {
+        font-size: 3.8vw !important;
+    }
+
+    .presentation .presentation-p {
+        font-size: 2.55vw !important;
+        font-weight: 400 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .calculate-zag {
+        font-size: 3.82vw !important;
+    }
+
+    .calculate-about {
+        font-size: 2vw !important;
+        margin-bottom: 22px !important;
+    }
+
+    .grid-info {
+        width: 90% !important;
+
+    }
+
+    .name-shield {
+        border: solid 1px !important;
+        font-size: 2vw !important;
+        margin-bottom: 18px !important;
+        padding: 10px !important;
+    }
+
+    .name-shield::-webkit-input-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .name-shield::-moz-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .name-shield:-ms-input-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .name-shield::-ms-input-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .name-shield::placeholder {
+        font-size: 2vw !important;
+    }
+
+    .shield {
+        border: solid 1px !important;
+        padding: 10px !important;
+        font-size: 2vw !important;
+        margin-bottom: 18px !important;
+    }
+
+    .shield::-webkit-input-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .shield::-moz-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .shield:-ms-input-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .shield::-ms-input-placeholder {
+        font-size: 2vw !important;
+    }
+
+    .shield::placeholder {
+        font-size: 2vw !important;
+    }
+
+    .calc-date {
+        font-size: 2vw !important;
+        padding: 1.27vw !important;
+        margin-bottom: 3vw !important;
+        font-weight: 900 !important;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .main {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+            -ms-flex-direction: column !important;
+                flex-direction: column !important;
+    }
+
+    .presentation {
+        width: 100% !important;
+        margin-bottom: 3vw;
+    }
+
+    .calculate {
+        width: 100% !important;
+    }
+}
+
+.presentation {
+
+    font-family: 'Raleway', sans-serif;
+    width: 49%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+}
+
+.presentation span {
+    font-size: 2vw;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.presentation .presentation-p {
+    font-size: 1.344vw;
+}
+
+.calculate {
+    width: 49%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    background-color: rgba(249, 250, 251, 1);
+    border-radius: 16px;
+}
+
+.calculate-zag {
+    font-size: 2vw;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.calculate-about {
+    font-size: 1.075vw;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.6vw;
+}
+
+.grid-info {
+    width: 70%;
+    background-color: rgba(249, 250, 251, 1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.grid-info-place {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+}
+
+.name-shield {
+    width: 100%;
+    padding: 0.6vw;
+    border: solid 2px black;
+    color: black;
+    border-radius: 4px;
+    font-size: 1.075vw;
+    margin-bottom: 1.2vw;
+}
+
+.name-shield::-webkit-input-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-shield::-moz-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-shield:-ms-input-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-shield::-ms-input-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-shield::placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-shield:hover::-webkit-input-placeholder {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.name-shield:hover::-moz-placeholder {
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.name-shield:hover:-ms-input-placeholder {
+    -ms-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.name-shield:hover::-ms-input-placeholder {
+    -ms-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.name-shield:hover::placeholder {
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.shield {
+    padding: 0.6vw;
+    color: black;
+    border-radius: 4px;
+    border: solid 2px black;
+    width: 40%;
+    font-size: 1.075vw;
+    margin-bottom: 1.2vw;
+}
+
+.shield::-webkit-input-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shield::-moz-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shield:-ms-input-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shield::-ms-input-placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shield::placeholder {
+    font-size: 0.9vw;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shield:hover::-webkit-input-placeholder {
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.shield:hover::-moz-placeholder {
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.shield:hover:-ms-input-placeholder {
+    -ms-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.shield:hover::-ms-input-placeholder {
+    -ms-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.shield:hover::placeholder {
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0%;
+}
+
+.calc-date {
+    font-size: 1.075vw;
+    border: 0px;
+    background-color: rgba(139, 92, 246, 1);
+    border-radius: 4px;
+    padding: 0.6vw;
+    width: 70%;
+    margin-bottom: 1.6vw;
+    color: rgba(249, 250, 251, 1);
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
